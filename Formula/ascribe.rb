@@ -3,25 +3,25 @@
 class Ascribe < Formula
   desc "Documentation as code: Markdown with directives, checked and built"
   homepage "https://ascribed-dev.com"
-  version "0.3.0"
+  version "0.3.1"
   license "MPL-2.0"
 
   on_macos do
     depends_on arch: :arm64
     on_arm do
-      url "https://github.com/ascribed-dev/ascribe/releases/download/v0.3.0/ascribe-0.3.0-darwin-arm64.tar.gz"
-      sha256 "f1786b337b9653f12563ee6d1f2fd5c9419acf0bb972f30cb4b809679f3a588e"
+      url "https://github.com/ascribed-dev/ascribe/releases/download/v0.3.1/ascribe-0.3.1-darwin-arm64.tar.gz"
+      sha256 "0a71ea79b974447bda7ec0a6de752e730c353779178618479785984969e23399"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ascribed-dev/ascribe/releases/download/v0.3.0/ascribe-0.3.0-linux-arm64.tar.gz"
-      sha256 "a8bb05b0909bc8d60c40c036183b9f3a336949ee3efefdec2060bf417f85d0c4"
+      url "https://github.com/ascribed-dev/ascribe/releases/download/v0.3.1/ascribe-0.3.1-linux-arm64.tar.gz"
+      sha256 "2f69f9b92041a8b92f70cbba09c751aa22ff9abc75b2017d97563eb188834492"
     end
     on_intel do
-      url "https://github.com/ascribed-dev/ascribe/releases/download/v0.3.0/ascribe-0.3.0-linux-x64.tar.gz"
-      sha256 "589eb93132d357702bf591b5a884775caed1bc1883970e32d47391a45112fbaa"
+      url "https://github.com/ascribed-dev/ascribe/releases/download/v0.3.1/ascribe-0.3.1-linux-x64.tar.gz"
+      sha256 "73167b09bfddf8fd2c0dcbdd22284e9d4076f1ede26e52200118bf86e0fb1a18"
     end
   end
 
